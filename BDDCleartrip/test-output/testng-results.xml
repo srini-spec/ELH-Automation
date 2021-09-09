@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37185" started-at="2021-09-09T08:46:17Z" finished-at="2021-09-09T08:46:55Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cleartrip.runner.runnerTest@e25b2fe]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="37185" started-at="2021-09-09T08:46:17Z" finished-at="2021-09-09T08:46:55Z">
+      <class name="com.cleartrip.runner.runnerTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cleartrip.runner.runnerTest@e25b2fe]" name="setUpClass" is-config="true" duration-ms="2017" started-at="2021-09-09T14:16:18Z" finished-at="2021-09-09T14:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cleartrip.runner.runnerTest@e25b2fe]" name="runScenario" duration-ms="32652" started-at="2021-09-09T14:16:20Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-09T14:16:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user can book ticket"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Booking flight ticket]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cleartrip.runner.runnerTest@e25b2fe]" name="tearDownClass" is-config="true" duration-ms="2463" started-at="2021-09-09T14:16:52Z" finished-at="2021-09-09T14:16:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cleartrip.runner.runnerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
